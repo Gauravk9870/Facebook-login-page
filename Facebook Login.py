@@ -7,14 +7,14 @@ height = window.winfo_screenheight()
 
 window.geometry("%dx%d" % (width, height))
 
-title = Label(window, text="facebook",bg="#E8E8E8", font=("Klavika", 50, 'bold'), fg="#427bff")
-title.place(x=150, y=210)
+facebook = Label(window, text="facebook",bg="#E8E8E8", font=("Klavika", 50, 'bold'), fg="#427bff")
+facebook.place(x=150, y=210)
 
-facebooktagline1 = Label(window, text="Facebook helps you connect and share",bg="#E8E8E8", font="Leelawadee 20 ", fg="black")
-facebooktagline1.place(x=150, y=290)
+tagline1 = Label(window, text="Facebook helps you connect and share",bg="#E8E8E8", font="Leelawadee 20 ", fg="black")
+tagline1.place(x=150, y=290)
 
-facebooktagline2 = Label(window, text="with the people in your life.", bg="#E8E8E8" , font="Leelawadee 20 ", fg="black")
-facebooktagline2.place(x=150, y=323)
+tagline2 = Label(window, text="with the people in your life.", bg="#E8E8E8" , font="Leelawadee 20 ", fg="black")
+tagline2.place(x=150, y=323)
 
 canvas = Canvas(window, width=415, height=320, bg="#fffcfc")
 canvas.place(x=750, y=175)
