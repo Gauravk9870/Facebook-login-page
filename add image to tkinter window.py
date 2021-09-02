@@ -2,12 +2,14 @@ import tkinter
 from tkinter import *
 from PIL import Image, ImageTk
 
+# Creating a basic window
 root = Tk()
+
+# Defining the size of the window screen
 root.geometry("1000x800")
 
 # Creating a photoimgage object of the image in the path
-
-img = Image.open("C:/Users/ASUS/PycharmProjects/GUI Projects/youLogo.png")
+img = Image.open("C:/Users/ASUS/PycharmProjects/GUI Projects/.png")
 loading_img = ImageTk.PhotoImage(img)
 
 # image is ready to show
